@@ -3,8 +3,9 @@
 <suite name="Suite" parallel="none">
   <test name="Test">
     <classes>
+      <class name="csx_offer.Csx_MandatoryFields"/>
       <class name="csx_offer.Create_Offer"/>
-      <class name="csx_offer.Create_Offer_Guest"/>
+      <class name="csx_offer.Create_Offer_byGuest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
